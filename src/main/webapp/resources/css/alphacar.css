@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+body {
+	background: #f9f9f9;
+	font-family: "Roboto", sans-serif;
+}
+
+.shadow {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.profile-tab-nav {
+	min-width: 250px;
+}
+
+.profile-tab-nav-service {
+	min-width: 500px;
+}
+
+.tab-content {
+	flex: 1;
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+.nav-pills a.nav-link {
+	padding: 15px 20px;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	color: #333;
+}
+.nav-pills a.nav-link i {
+	width: 20px;
+}
+
+.img-circle img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+}
+
+
+.click > button:active {
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+ 
+input[id*="modal"] {
+	display: none;
+}
+ 
+input[id*="modal"] + label {
+	display: inline-block;
+	border: 1px, solid, #007bff;
+	padding: 20px;
+	color: #fff;
+	background: #007bff;
+	border-radius: 1em;
+	margin: auto;
+} 
+
+input[id*="modal"] + label + div {
+	opacity:0;visibility:hidden;transition:all 0.5s;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height : 100%;
+	z-index: 100;
+}
+
+input[id*="modal"]:checked + label + div {
+	opacity:1;visibility:visible;
+}
+
+input[id*="modal"] + label + div > div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: 700px;
+	background: #fff;
+	padding: 20px;
+	z-index: 2;
+}
+
+input[id*="modal"] + label + div > label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .9);
+	z-index: 1;
+}
+
+#card_info, #license_info {
+	margin: auto;
+}
+
+button.center {
+	margin: auto;
+	display: block;
+}
+
+
+input[name*=license] + label {
+	font-size: 13px;
+	
+}
+
+select {
+	width: 50px;
+ 	height: calc(1.5em + 0.75rem + 6px);
+ 	font-size: 0.6rem;
+ 	color: #495057;
+ 	background-color: #fff;
+ 	border-radius: 0.25rem;
+ 	display: block;
+ 	border: 1px solid #ced4da;
+}
+
+.licenseType {
+	margin: auto;
+}
+
+
+/* profile */
