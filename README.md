@@ -1,8 +1,8 @@
 # TeamProject (작품명 : Alpha Car)
 
-Tool : Eclipse
-FrontEnd : HTML, CSS, JavaScript
-BackEnd : Java, Spring, Spring Boot, JQuery, JSP, SQL Oracle
+- Tool : Eclipse
+- FrontEnd : HTML, CSS, JavaScript
+- BackEnd : Java, Spring, Spring Boot, JQuery, JSP, SQL Oracle
 ===================================
 
 
