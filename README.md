@@ -3,9 +3,6 @@
 - Tool : Eclipse
 - FrontEnd : HTML, CSS, JavaScript
 - BackEnd : Java, Spring, Spring Boot, JQuery, JSP, SQL Oracle
-===================================
-
-
 - 두번째 팀프로젝트로서 자바 기반으로 활용해서 만든 전기차 대여 웹 페이지입니다.
 - This is an electric vehicle rental web page made using JAVA as the second team project.
 - 2番目のチームプロジェクトとして、JAVAベースに活用して作った電気自動車レンタルウェブページです。
